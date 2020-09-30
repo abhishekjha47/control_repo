@@ -1,6 +1,7 @@
 node default {
   file {'/home/ubuntu/puppettest/README':
-    ensure => file,
+    ensure  => file,
     content => 'This is a readme',
+    owner   => 'root',
     }
 }
