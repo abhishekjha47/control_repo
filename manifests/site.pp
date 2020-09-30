@@ -1,5 +1,6 @@
 node default {
-  file {'/root/README':
+  file {'/home/ubuntu/puppettest/README':
     ensure => file,
+    content => 'This is a readme',
     }
 }
