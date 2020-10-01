@@ -1,5 +1,5 @@
 node default {
 }
-node 'no1010042033039.corp.adobe.com' {
+node 'check' {
   include role::master_server
 }
